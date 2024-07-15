@@ -1,0 +1,21 @@
+{
+  "name": "openai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "TSEC",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.14.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.52.7",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
